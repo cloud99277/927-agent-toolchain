@@ -8,7 +8,7 @@
 
 [![Author](https://img.shields.io/badge/Author-Cloud927-blue?style=flat-square)](https://github.com/cloud99277)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-106+-orange?style=flat-square)](#-这套系统能做什么)
+[![Skills](https://img.shields.io/badge/Skills-80+-orange?style=flat-square)](#-这套系统能做什么)
 [![Zero Infra](https://img.shields.io/badge/Zero_Infra-No_DB_No_Server-purple?style=flat-square)](#-核心设计约束)
 
 </div>
@@ -36,7 +36,7 @@
 ├── 🔗 编排层    agent-orchestrator（YAML 声明式链）· scheduled-tasks
 ├── 🧠 记忆层    memory-manager · brain-link · conversation-distiller
 ├── 📋 协议层    IO 契约 · MCP 兼容导出
-├── ⚡ 能力层    106+ 个即用型 Skill
+├── ⚡ 能力层    80+ 个即用型 Skill
 └── 🤝 共享层    symlink → Claude / Codex / Gemini / 任何 Agent
 ```
 
@@ -148,6 +148,20 @@ python3 ~/.ai-skills/mcp-export/scripts/export-mcp.py --stats
 | **5** | 可观测性 | `skill-observability` — 日志 + 月报 |
 | **6** | 定时调度 | `scheduled-tasks` — cron + Agent CLI |
 | **7** | MCP 导出 | `export-mcp.py` — 协议级兼容 |
+
+## 🔗 关联仓库
+
+本项目采用**开发项目 + 运行时仓库**的两层分离架构：
+
+| 仓库 | 定位 | 内容 |
+|------|------|------|
+| **本仓库**（[927-agent-toolchain](https://github.com/cloud99277/927-agent-toolchain)） | 设计与开发项目 | 8 个 Phase 的设计文档、审查报告、15 个 Skill 源码 |
+| [927-ai-skills](https://github.com/cloud99277/927-ai-skills)（私有） | 运行时 Skill 仓库 | 80+ 个可执行 Skill，部署在 `~/.ai-skills/` |
+
+- 本仓库是 Agent Toolchain 体系的**设计文档 + 开发记录**，新 Skill 在此设计开发
+- `927-ai-skills` 是 `~/.ai-skills/` 的 Git 备份，包含所有 Agent 实际使用的全量 Skill
+- 开发完成的 Skill 通过 `cp -r skills/* ~/.ai-skills/` 部署到运行时仓库
+- 各 AI Agent 通过 symlink（`~/.claude/skills` → `~/.ai-skills/`）共享同一份 Skill
 
 ## 🙏 致谢
 
