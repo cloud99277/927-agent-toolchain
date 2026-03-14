@@ -37,7 +37,8 @@ It's not another AI framework. It's a pure file-system Skill OS — zero databas
 ├── 🧠 Memory         memory-manager · brain-link · conversation-distiller
 ├── 📋 Protocol       IO Contracts · MCP Compatible Export
 ├── ⚡ Capabilities   106+ ready-to-use Skills
-└── 🤝 Sharing        symlink → Claude / Codex / Gemini / any Agent
+├── 🤝 Sharing        symlink → Claude / Codex / Gemini / any Agent
+└── 🖥️ Dashboard     Zero-dependency local management UI
 ```
 
 ### 🛡️ Security That Actually Works
@@ -75,6 +76,18 @@ Output: mcp-tools.json (68KB)
 
 Make your skills discoverable by any MCP-compatible agent.
 
+### 🖥️ Zero-Dependency Local Management Dashboard
+
+```bash
+# Start the Dashboard with a single command (supports EN/ZH)
+$ ~/projects/agent-toolchain/start-dashboard.sh
+
+# Or invoke it via Agent:
+> "open dashboard to manage my skills"
+```
+
+Say goodbye to tedious command-line tools. Manage your 106+ skills directly in a visual dashboard with **gradient heatmaps** and **one-click Git sync**, eliminating the need for your Agents to constantly scan repositories and waste valuable LLM tokens.
+
 ## 🚀 Get Started in 5 Minutes
 
 ```bash
@@ -111,6 +124,10 @@ python3 ~/.ai-skills/mcp-export/scripts/export-mcp.py --stats
 │   ├── design-iteration/          #   Review-driven design iteration
 │   ├── code-review/               #   Structured code review
 │   └── ...                        #   15 skills total
+│
+├── dashboard/                     # 🖥️ Zero-dependency Visual Web Dashboard
+│   ├── server.py                  #   Python Stdlib HTTP/API Server
+│   └── static/                    #   HTML/CSS/JS (Bilingual EN/ZH)
 │
 ├── docs/                          # Design documents & specifications
 │   ├── phase-1-io-contracts/      #   IO contract spec + type-registry

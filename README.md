@@ -37,7 +37,8 @@
 ├── 🧠 记忆层    memory-manager · brain-link · conversation-distiller
 ├── 📋 协议层    IO 契约 · MCP 兼容导出
 ├── ⚡ 能力层    80+ 个即用型 Skill
-└── 🤝 共享层    symlink → Claude / Codex / Gemini / 任何 Agent
+├── 🤝 共享层    symlink → Claude / Codex / Gemini / 任何 Agent
+└── 🖥️ 面板层    本地 Dashboard 零依赖管理界面
 ```
 
 ### 🛡️ 安全，不是口号
@@ -75,6 +76,18 @@ Output: mcp-tools.json (68KB)
 
 让你的 Skill 被任何 MCP 兼容的 Agent 自动发现。
 
+### 🖥️ 零依赖本地 Dashboard 管理面板
+
+```bash
+# 一行命令调起 Dashboard（带中文和英文支持）
+$ ~/projects/agent-toolchain/start-dashboard.sh
+
+# 或通过 Agent 唤起：
+> "打开 dashboard 管理一下现在的 skill"
+```
+
+告别繁琐的命令行，直接在支持**渐变热力图**和**一键 Git 同步**的可视化面板里管理你的 106+ 个 Skill，彻底杜绝 Agent 扫描仓库浪费大模型 Token。
+
 ## 🚀 5 分钟上手
 
 ```bash
@@ -111,6 +124,10 @@ python3 ~/.ai-skills/mcp-export/scripts/export-mcp.py --stats
 │   ├── design-iteration/          #   审查驱动设计迭代
 │   ├── code-review/               #   结构化代码审查
 │   └── ...                        #   共 15 个 Skill
+│
+├── dashboard/                     # 🖥️ 零依赖可视化 Web 管理面板
+│   ├── server.py                  #   Python Stdlib HTTP/API 服务器
+│   └── static/                    #   HTML/CSS/JS (中英双语)
 │
 ├── docs/                          # 设计文档与规范
 │   ├── phase-1-io-contracts/      #   IO 契约规范 + type-registry

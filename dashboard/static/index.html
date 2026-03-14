@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agent Toolchain Dashboard</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app" id="app">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <h1><span class="icon">🛠️</span> Toolchain</h1>
+        <div class="subtitle" id="brand-subtitle">Skill 管理面板</div>
+      </div>
+      <ul class="sidebar-nav">
+        <li><button class="active" data-page="overview"><span class="nav-icon">📊</span> 总览</button></li>
+        <li><button data-page="skills"><span class="nav-icon">⚡</span> Skills 管理</button></li>
+        <li><button data-page="repos"><span class="nav-icon">🔄</span> 仓库同步</button></li>
+        <li><button data-page="activity"><span class="nav-icon">📋</span> 执行日志</button></li>
+      </ul>
+      <div class="sidebar-bottom">
+        <button class="lang-toggle-btn" id="lang-toggle" onclick="toggleLang()">🌐 English</button>
+      </div>
+      <div class="sidebar-stats">
+        <div class="stat-row"><span id="sidebar-label-skills">Skills</span><span class="stat-value" id="sidebar-skill-count">—</span></div>
+        <div class="stat-row"><span id="sidebar-label-exec">执行次数</span><span class="stat-value" id="sidebar-exec-count">—</span></div>
+      </div>
+    </aside>
+
+    <!-- Header -->
+    <header class="header">
+      <h2 class="header-title" id="page-title">总览</h2>
+      <div class="header-actions">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="search-input" placeholder="搜索 Skill...">
+        </div>
+        <button class="btn btn-primary" id="btn-create-skill">➕ 新建 Skill</button>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content" id="main-content">
+      <div class="loading"><div class="spinner"></div></div>
+    </main>
+  </div>
+
+  <!-- Create/Edit Modal -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal" id="skill-modal">
+      <div class="modal-header">
+        <h2 id="modal-title">新建 Skill</h2>
+        <button class="modal-close" id="modal-close">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-row" id="form-name-row">
+          <div class="form-group">
+            <label id="label-name">Skill 名称</label>
+            <input type="text" id="input-skill-name" placeholder="my-awesome-skill">
+          </div>
+          <div class="form-group">
+            <label id="label-desc">简要描述</label>
+            <input type="text" id="input-skill-desc" placeholder="这个 Skill 做什么？">
+          </div>
+        </div>
+        <div class="checkbox-row" id="checkbox-row">
+          <label id="label-check-scripts"><input type="checkbox" id="check-scripts" checked> 创建 scripts/</label>
+          <label id="label-check-refs"><input type="checkbox" id="check-references"> 创建 references/</label>
+        </div>
+        <div class="form-group" style="margin-top: 16px;">
+          <label id="label-content">SKILL.md 内容</label>
+          <textarea id="input-skill-content" placeholder="---&#10;name: my-skill&#10;description: ...&#10;---&#10;&#10;# My Skill"></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-ghost" id="modal-cancel">取消</button>
+        <button class="btn btn-primary" id="modal-save">💾 保存</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
