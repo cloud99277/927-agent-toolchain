@@ -1,6 +1,16 @@
 ---
 name: agent-orchestrator
 description: Validate and plan linear skill chains defined in YAML. Reads IO contracts from skill frontmatter, verifies type compatibility between chained steps, and outputs step-by-step execution plans. Use when the user wants to orchestrate multiple skills in sequence, validate a chain definition, or see an execution plan for a multi-skill pipeline. 当用户提到"编排""orchestrate""chain""pipeline""串联 skill""执行链"时触发。NOT for single skill execution. NOT for DAG or parallel orchestration. Prefer this for chain validation and planning; actual skill execution is done by the user or agent following the generated plan.
+io:
+  input:
+    - type: text
+      description: YAML 编排链文件路径
+    - type: directory
+      description: Skill 仓库目录（用于读取 IO 契约）
+      required: false
+  output:
+    - type: json_data
+      description: 编排验证结果或分步执行计划
 ---
 
 # Agent Orchestrator — 线性链式 Skill 编排

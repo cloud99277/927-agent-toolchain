@@ -10,6 +10,13 @@ description: >
   NOT for security-only scanning — use security-review instead.
   NOT for automated CI checks — use verification-loop instead.
   当用户提到"审查代码""review代码""看看这段代码""PR审查""代码质量"时触发。
+io:
+  input:
+    - type: text
+      description: 待审查的代码文件路径或变更内容
+  output:
+    - type: markdown_file
+      description: 结构化代码审查报告（含 Blocking/Non-blocking/Nit 分级）
 ---
 
 # Code Review — 结构化代码审查

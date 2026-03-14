@@ -6,6 +6,14 @@ description: >
   当用户说"发推特""写 Thread""写 X Article""准备推特内容"时触发。
   NOT for actual publishing — use post-to-x for API/browser publishing.
   NOT for other platforms — use content-engine for cross-platform repurposing.
+io:
+  input:
+    - type: markdown_file
+      description: 源素材（已有文档或调研报告）
+  output:
+    - type: markdown_file
+      description: X 平台发布内容包（纯文本正文 + 配图提示词）
+      path_pattern: "content/{topic}/x-article-package.md"
 ---
 
 # Content for X — X 平台内容准备

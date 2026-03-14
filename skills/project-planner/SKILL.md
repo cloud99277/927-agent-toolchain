@@ -1,6 +1,13 @@
 ---
 name: project-planner
 description: Plan and structure new projects from external inspiration (articles, ideas, conversations) through a systematic workflow — from information gathering to project document creation. Use when the user wants to start a new project, create a project plan, or turn an idea/article into a structured project design. 当用户提到"新项目""项目规划""从这篇文章出发做个项目""把这个想法落地"时触发。Prefer this for project-level planning; use skill-creator for creating individual AI skills.
+io:
+  input:
+    - type: text
+      description: 灵感来源（文章、想法、对话等）
+  output:
+    - type: markdown_file
+      description: 项目顶层设计文档（PROJECT.md）
 ---
 
 # Project Planner — 从灵感到项目

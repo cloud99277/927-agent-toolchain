@@ -46,6 +46,10 @@ CREDENTIAL_PATTERNS: list[tuple[str, str, str]] = [
     ("CRED-004", r'AIza[a-zA-Z0-9_\-]{35}', "Google API Key"),
     ("CRED-005", r'(?i)(token|secret)\s*[=:]\s*["\']?[a-zA-Z0-9_\-]{20,}', "Token/Secret"),
     ("CRED-006", r'(?i)password\s*[=:]\s*["\']?[^\s"\'\]]{8,}', "Password"),
+    ("CRED-007", r'ghp_[a-zA-Z0-9]{36}', "GitHub Personal Access Token"),
+    ("CRED-008", r'(?:gho|ghs|ghr)_[a-zA-Z0-9]{36}', "GitHub OAuth/App Token"),
+    ("CRED-009", r'AKIA[A-Z0-9]{16}', "AWS Access Key ID"),
+    ("CRED-010", r'xox[bpsa]-[a-zA-Z0-9\-]{20,}', "Slack Token"),
 ]
 
 # 安全模式：匹配到这些则跳过（正确的凭据使用方式）

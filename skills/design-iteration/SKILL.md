@@ -8,6 +8,13 @@ description: >
   — use project-audit instead. NOT for creating new documents — use
   project-planner instead.
   当用户提到"根据审查修订""落实审查意见""修一下审查发现的问题""迭代设计"时触发。
+io:
+  input:
+    - type: markdown_file
+      description: 审查报告 + 待修订的目标文档
+  output:
+    - type: markdown_file
+      description: 修订后的文档（带变更标注和审查对照表）
 ---
 
 # Design Iteration — 审查驱动的设计迭代

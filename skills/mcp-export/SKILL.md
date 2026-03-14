@@ -6,6 +6,14 @@ description: >
   discover and invoke skills. Use when user mentions "MCP", "Model Context
   Protocol", "导出 MCP", "MCP schema", "tools/list export".
   当用户提到"MCP导出""MCP兼容""导出工具列表""MCP JSON"时触发。
+io:
+  input:
+    - type: directory
+      description: Skill 仓库目录（默认 ~/.ai-skills/）
+  output:
+    - type: json_data
+      description: MCP 兼容的 Tool JSON Schema（tools/list 格式）
+      path_pattern: "mcp-tools.json"
 ---
 
 # MCP Export — SKILL.md → MCP Tool JSON 导出

@@ -1,6 +1,13 @@
 ---
 name: project-audit
 description: Conduct architectural reviews of project documents (design docs, research reports, phase plans) using a structured three-tier severity model. Use when the user asks to review, audit, or critique a project document, design proposal, or technical plan. Produces a formal review report with structural issues, blind spots, and optimization suggestions. 当用户提到"审查""审计""review""critique""检查设计文档"时触发。Prefer this for project-level document review; use security-review for code-level security scanning.
+io:
+  input:
+    - type: markdown_file
+      description: 待审查的项目文档（设计方案、调研报告、Phase 文档等）
+  output:
+    - type: markdown_file
+      description: 审查报告（含 🔴/🟡/🟢 分级问题和评分）
 ---
 
 # Project Audit — 项目文档架构审查

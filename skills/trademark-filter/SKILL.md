@@ -4,6 +4,13 @@ description: >
   从商标数据库中筛选"简单、大气、好记"的商标名。V2高级审美版。
   采用反土味惩罚降维打击引擎，大幅加成「东方极简」、「院线科技」与
   「法式Chic」美学流派。输出高品质 TOP N 商业级商标。
+io:
+  input:
+    - type: json_data
+      description: 商标数据库（JSON 格式，含商标名称字段）
+  output:
+    - type: json_data
+      description: 筛选后的商标排行榜（含审美评分和流派标注）
 ---
 
 # Trademark Filter (V2 高级审美版) — 商标智能筛选工具

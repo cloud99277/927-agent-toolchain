@@ -11,6 +11,13 @@ description: >
   for routine git push (use upload-to-github), NOT for project initialization
   from an idea/article (use project-planner).
   当用户提到"从头开始做""全流程开发""从调研到上线""质量门开发""双循环开发"时触发。
+io:
+  input:
+    - type: text
+      description: 项目需求描述或灵感来源
+  output:
+    - type: markdown_file
+      description: 各 Phase 的设计文档和交付产物
 ---
 
 # Full-Cycle Builder — 质量门驱动的全周期开发编排

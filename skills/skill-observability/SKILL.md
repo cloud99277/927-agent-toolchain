@@ -1,6 +1,14 @@
 ---
 name: skill-observability
 description: Record skill execution logs, generate usage statistics, find unused skills, and produce observability reports. Use when the user wants to track which skills are being used, find unused or high-failure-rate skills, or generate a monthly usage report. NOT for security scanning (use skill-security-audit), NOT for skill format validation (use skill-lint). 当用户提到"可观测""执行日志""使用统计""未使用 skill""月度报告""observability""log execution"时触发。
+io:
+  input:
+    - type: text
+      description: 要记录的 skill 名称、agent、执行状态等信息
+  output:
+    - type: json_data
+      description: 执行日志（JSONL 格式）或统计报告
+      path_pattern: "~/.ai-skills/.logs/executions.jsonl"
 ---
 
 # Skill Observability — 执行日志与使用统计

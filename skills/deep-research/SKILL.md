@@ -8,6 +8,13 @@ description: >
   NOT for market sizing, investor diligence, or financial analysis — use
   market-research instead. NOT for quick "does a library exist" checks —
   use search-first instead. 当用户提到"调研""竞品分析""技术选型""方案对比""架构对比"时触发。
+io:
+  input:
+    - type: text
+      description: 调研主题或技术选型问题
+  output:
+    - type: markdown_file
+      description: 体系化调研报告（含对比矩阵和机器可读 YAML 摘要）
 ---
 
 # Deep Research — 体系化技术调研

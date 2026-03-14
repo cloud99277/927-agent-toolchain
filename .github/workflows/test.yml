@@ -1,0 +1,38 @@
+name: Agent Toolchain CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: Validate Skills & Security
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Security Audit (all skills)
+        run: |
+          python3 skills/skill-security-audit/scripts/audit.py skills/ --all
+
+      - name: MCP Export Validation
+        run: |
+          python3 skills/mcp-export/scripts/export-mcp.py --stats --skills-dir skills/
+
+      - name: IO Contract Coverage Check
+        run: |
+          IO_COUNT=$(python3 skills/mcp-export/scripts/export-mcp.py --stats --skills-dir skills/ 2>/dev/null | grep "With IO" | awk '{print $4}')
+          echo "Skills with IO declarations: $IO_COUNT"
+          if [ "$IO_COUNT" -lt 15 ]; then
+            echo "⚠️ IO contract coverage below threshold (15)"
+            exit 1
+          fi
+          echo "✅ IO contract coverage OK"

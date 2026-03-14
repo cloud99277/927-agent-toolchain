@@ -8,6 +8,14 @@ description: >
   当用户提到"安全审计""扫描凭据""检查skill安全"时触发。
   Prefer this for skill-level security scanning; use security-review for
   general code security review, and security-scan for .claude/ config scanning.
+io:
+  input:
+    - type: directory
+      description: Skill 仓库目录路径（如 ~/.ai-skills/）
+  output:
+    - type: json_data
+      description: 安全审计报告（含各维度扫描结果）
+      path_pattern: "audit-report.json"
 ---
 
 # Skill Security Audit — Skill 安全审计

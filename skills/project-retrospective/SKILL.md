@@ -1,6 +1,13 @@
 ---
 name: project-retrospective
 description: Capture execution experience and distill new patterns into the project workflow document and related skills. Use when a project phase is complete and the user wants to retrospect, capture lessons learned, or update the workflow methodology. 当用户提到"沉淀经验""回顾""retrospective""更新工作流""总结这一轮"时触发。Prefer this for methodology updates; use project-audit for document review.
+io:
+  input:
+    - type: markdown_file
+      description: 项目文档或 Phase 交付物
+  output:
+    - type: markdown_file
+      description: 经验沉淀报告（含新模式和工作流更新建议）
 ---
 
 # Project Retrospective — 经验沉淀
