@@ -1,0 +1,1069 @@
+{
+  "schema_version": "1.0",
+  "scan_date": "2026-03-07T19:57:20.804043+00:00",
+  "scanner_version": "0.1.0",
+  "mode": "all",
+  "results": [
+    {
+      "skill_path": "/home/yangyy/.ai-skills/add-provider",
+      "skill_name": "add-provider",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/api-design",
+      "skill_name": "api-design",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/article-writing",
+      "skill_name": "article-writing",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/backend-patterns",
+      "skill_name": "backend-patterns",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/baoyu-article-illustrator",
+      "skill_name": "baoyu-article-illustrator",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/baoyu-comic",
+      "skill_name": "baoyu-comic",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/baoyu-compress-image",
+      "skill_name": "baoyu-compress-image",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/baoyu-cover-image",
+      "skill_name": "baoyu-cover-image",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/baoyu-danger-gemini-web",
+      "skill_name": "baoyu-danger-gemini-web",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/baoyu-danger-x-to-markdown",
+      "skill_name": "baoyu-danger-x-to-markdown",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/baoyu-format-markdown",
+      "skill_name": "baoyu-format-markdown",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/baoyu-html-deck",
+      "skill_name": "baoyu-html-deck",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/baoyu-image-gen",
+      "skill_name": "baoyu-image-gen",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/baoyu-infographic",
+      "skill_name": "baoyu-infographic",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/baoyu-markdown-to-html",
+      "skill_name": "baoyu-markdown-to-html",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/baoyu-post-to-wechat",
+      "skill_name": "baoyu-post-to-wechat",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/baoyu-slide-deck",
+      "skill_name": "baoyu-slide-deck",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/baoyu-url-to-markdown",
+      "skill_name": "baoyu-url-to-markdown",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/baoyu-xhs-images",
+      "skill_name": "baoyu-xhs-images",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/brain-link",
+      "skill_name": "brain-link",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/china-content-compliance",
+      "skill_name": "china-content-compliance",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/clickhouse-io",
+      "skill_name": "clickhouse-io",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/codex-cli-trigger",
+      "skill_name": "codex-cli-trigger",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/codex-provider-bootstrap",
+      "skill_name": "codex-provider-bootstrap",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/coding-standards",
+      "skill_name": "coding-standards",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/configure-ecc",
+      "skill_name": "configure-ecc",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/content-engine",
+      "skill_name": "content-engine",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/content-hash-cache-pattern",
+      "skill_name": "content-hash-cache-pattern",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/continuous-learning",
+      "skill_name": "continuous-learning",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/continuous-learning-v2",
+      "skill_name": "continuous-learning-v2",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/conversation-distiller",
+      "skill_name": "conversation-distiller",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/cost-aware-llm-pipeline",
+      "skill_name": "cost-aware-llm-pipeline",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/cpp-coding-standards",
+      "skill_name": "cpp-coding-standards",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/cpp-testing",
+      "skill_name": "cpp-testing",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/database-migrations",
+      "skill_name": "database-migrations",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/deployment-patterns",
+      "skill_name": "deployment-patterns",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/django-patterns",
+      "skill_name": "django-patterns",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/django-security",
+      "skill_name": "django-security",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/django-tdd",
+      "skill_name": "django-tdd",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/django-verification",
+      "skill_name": "django-verification",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/docker-patterns",
+      "skill_name": "docker-patterns",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/douyin-audio-workflow",
+      "skill_name": "douyin-audio-workflow",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/e2e-testing",
+      "skill_name": "e2e-testing",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/eval-harness",
+      "skill_name": "eval-harness",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/foundation-models-on-device",
+      "skill_name": "foundation-models-on-device",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/frontend-patterns",
+      "skill_name": "frontend-patterns",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/frontend-slides",
+      "skill_name": "frontend-slides",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/gemini-cli-trigger",
+      "skill_name": "gemini-cli-trigger",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/golang-patterns",
+      "skill_name": "golang-patterns",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/golang-testing",
+      "skill_name": "golang-testing",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/history-chat",
+      "skill_name": "history-chat",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/history-reader",
+      "skill_name": "history-reader",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/investor-materials",
+      "skill_name": "investor-materials",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/investor-outreach",
+      "skill_name": "investor-outreach",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/iterative-retrieval",
+      "skill_name": "iterative-retrieval",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/java-coding-standards",
+      "skill_name": "java-coding-standards",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/jpa-patterns",
+      "skill_name": "jpa-patterns",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/liquid-glass-design",
+      "skill_name": "liquid-glass-design",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/market-research",
+      "skill_name": "market-research",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/nutrient-document-processing",
+      "skill_name": "nutrient-document-processing",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/post-to-x",
+      "skill_name": "post-to-x",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/postgres-patterns",
+      "skill_name": "postgres-patterns",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/project-guidelines-example",
+      "skill_name": "project-guidelines-example",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/python-patterns",
+      "skill_name": "python-patterns",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/python-testing",
+      "skill_name": "python-testing",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/regex-vs-llm-structured-text",
+      "skill_name": "regex-vs-llm-structured-text",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/res-downloader",
+      "skill_name": "res-downloader",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/search-first",
+      "skill_name": "search-first",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/security-review",
+      "skill_name": "security-review",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/security-scan",
+      "skill_name": "security-scan",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/skill-lint",
+      "skill_name": "skill-lint",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/skill-security-audit",
+      "skill_name": "skill-security-audit",
+      "status": "WARNING",
+      "findings": [
+        {
+          "dimension": "consent",
+          "severity": "medium",
+          "rule_id": "CONS-001",
+          "file": "SKILL.md",
+          "line": 0,
+          "matched_content": "",
+          "whitelisted": false,
+          "message": "SKILL.md mentions reverse/unofficial API but skill name lacks 'danger-' prefix"
+        }
+      ],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 1,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/skill-stocktake",
+      "skill_name": "skill-stocktake",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/springboot-patterns",
+      "skill_name": "springboot-patterns",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/springboot-security",
+      "skill_name": "springboot-security",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/springboot-tdd",
+      "skill_name": "springboot-tdd",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/springboot-verification",
+      "skill_name": "springboot-verification",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/strategic-compact",
+      "skill_name": "strategic-compact",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/swift-actor-persistence",
+      "skill_name": "swift-actor-persistence",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/swift-concurrency-6-2",
+      "skill_name": "swift-concurrency-6-2",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/swift-protocol-di-testing",
+      "skill_name": "swift-protocol-di-testing",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/swiftui-patterns",
+      "skill_name": "swiftui-patterns",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/tdd-workflow",
+      "skill_name": "tdd-workflow",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/translate",
+      "skill_name": "translate",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/upload-to-github",
+      "skill_name": "upload-to-github",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/verification-loop",
+      "skill_name": "verification-loop",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    },
+    {
+      "skill_path": "/home/yangyy/.ai-skills/visa-doc-translate",
+      "skill_name": "visa-doc-translate",
+      "status": "PASS",
+      "findings": [],
+      "summary": {
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    }
+  ],
+  "global_summary": {
+    "total_skills": 87,
+    "pass": 86,
+    "warning": 1,
+    "critical": 0
+  }
+}

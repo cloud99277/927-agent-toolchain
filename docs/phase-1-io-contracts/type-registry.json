@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "description": "Skill IO 标准类型注册表 — 定义 skill 输入输出的标准数据类型",
+  "last_updated": "2026-03-09",
+  "types": [
+    {
+      "id": "text",
+      "description": "纯文本字符串，通过 stdin/stdout 或参数传递",
+      "file_extensions": null,
+      "examples": [
+        "命令行参数",
+        "stdin 输入",
+        "执行结果摘要"
+      ],
+      "notes": "最宽泛的类型，所有其他类型在语义上都是 text 的子类型"
+    },
+    {
+      "id": "markdown_file",
+      "description": "Markdown 格式的文档文件",
+      "file_extensions": [
+        ".md"
+      ],
+      "examples": [
+        "翻译输出 translation.md",
+        "推文转换 content.md",
+        "网页提取 article.md"
+      ],
+      "notes": "Agent Toolchain 中最常见的数据交换格式"
+    },
+    {
+      "id": "url",
+      "description": "网页或资源的 URL 地址",
+      "file_extensions": null,
+      "examples": [
+        "https://x.com/user/status/123",
+        "https://example.com/article"
+      ],
+      "notes": "通常作为内容获取类 skill 的输入"
+    },
+    {
+      "id": "image_file",
+      "description": "图片文件",
+      "file_extensions": [
+        ".png",
+        ".jpg",
+        ".jpeg",
+        ".webp",
+        ".gif",
+        ".svg"
+      ],
+      "examples": [
+        "封面图 cover.png",
+        "信息图 infographic.png"
+      ],
+      "notes": "包含各种常见图片格式"
+    },
+    {
+      "id": "json_data",
+      "description": "结构化 JSON 数据",
+      "file_extensions": [
+        ".json",
+        ".jsonl"
+      ],
+      "examples": [
+        "lint 检查报告",
+        "执行日志",
+        "配置数据"
+      ],
+      "notes": "用于机器可读的结构化输出"
+    },
+    {
+      "id": "html_file",
+      "description": "HTML 格式的文档文件",
+      "file_extensions": [
+        ".html",
+        ".htm"
+      ],
+      "examples": [
+        "微信公众号排版 HTML",
+        "演示文稿 HTML"
+      ],
+      "notes": "通常作为发布类 skill 的中间格式"
+    },
+    {
+      "id": "directory",
+      "description": "文件系统目录路径",
+      "file_extensions": null,
+      "examples": [
+        "skill 仓库根目录",
+        "翻译输出目录",
+        "图片目录"
+      ],
+      "notes": "指向包含多个文件的目录"
+    }
+  ],
+  "compatibility_rules": [
+    {
+      "rule": "text_is_universal_input",
+      "description": "text 类型可以作为任何接受文本输入的 skill 的输入",
+      "from": "text",
+      "to": [
+        "markdown_file",
+        "url"
+      ]
+    },
+    {
+      "rule": "markdown_is_text",
+      "description": "markdown_file 在语义上是 text 的子类型，可以传递给接受 text 的 skill",
+      "from": "markdown_file",
+      "to": [
+        "text"
+      ]
+    },
+    {
+      "rule": "json_is_text",
+      "description": "json_data 在语义上是 text 的子类型，可以传递给接受 text 的 skill",
+      "from": "json_data",
+      "to": [
+        "text"
+      ]
+    }
+  ]
+}
