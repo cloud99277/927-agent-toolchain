@@ -168,15 +168,17 @@ python3 ~/.ai-skills/mcp-export/scripts/export-mcp.py --stats
 
 ## 🔗 关联仓库
 
-本项目采用**开发项目 + 运行时仓库**的两层分离架构：
+本项目采用**开发项目 + 运行时仓库 + 知识库**的多层分离架构：
 
 | 仓库 | 定位 | 内容 |
 |------|------|------|
 | **本仓库**（[927-agent-toolchain](https://github.com/cloud99277/927-agent-toolchain)） | 设计与开发项目 | 8 个 Phase 的设计文档、审查报告、15 个 Skill 源码 |
 | [927-ai-skills](https://github.com/cloud99277/927-ai-skills)（私有） | 运行时 Skill 仓库 | 80+ 个可执行 Skill，部署在 `~/.ai-skills/` |
+| [agent-os-knowledge-base](https://github.com/cloud99277/agent-os-knowledge-base)（私有） | 知识库引擎 | 本地 Markdown 语义搜索 + 治理（LanceDB + BGE 中文模型），提供 `knowledge-search` Skill |
 
 - 本仓库是 Agent Toolchain 体系的**设计文档 + 开发记录**，新 Skill 在此设计开发
 - `927-ai-skills` 是 `~/.ai-skills/` 的 Git 备份，包含所有 Agent 实际使用的全量 Skill
+- `agent-os-knowledge-base` 是知识库引擎项目，通过 `knowledge-search` Skill 接入 Toolchain 体系
 - 开发完成的 Skill 通过 `cp -r skills/* ~/.ai-skills/` 部署到运行时仓库
 - 各 AI Agent 通过 symlink（`~/.claude/skills` → `~/.ai-skills/`）共享同一份 Skill
 
