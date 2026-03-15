@@ -28,7 +28,7 @@ It's not another AI framework. It's a pure file-system Skill OS — zero databas
 
 ## 🔥 What This System Can Do
 
-### 🏗️ 6-Layer Architecture, One Directory
+### 🏗️ 7-Layer Architecture, One Directory
 
 ```
 ~/.ai-skills/
